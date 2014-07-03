@@ -1,13 +1,16 @@
-trulia-java-rets-client
+java-rets-client
 =================
 
-The Trulia Java RETS Client is a library used to access data on RETS compliant servers.
-This is a fork of the [jrets](https://github.com/jpfielding/jrets) master branch, which it self is a fork of the [CART RETS client](http://cart.sourceforge.net/).
+The Java RETS Client is a library used to access data on RETS compliant servers.
+This is a fork of the [trulia-java-rets-client](https://github.com/trulia/trulia-java-rets-client)
+master branch, which is a fork of the [jrets](https://github.com/jpfielding/jrets) master branch,
+which it self is a fork of the [CART RETS client](http://cart.sourceforge.net/).
 
+Muito complicado.
 
 Simple example of a search:
 
-
+```java
 	public static void main(String[] args) throws MalformedURLException {
 
 		//Create a RetsHttpClient (other constructors provide configuration i.e. timeout, gzip capability)
@@ -226,7 +229,7 @@ Example of Geting Metadata:
 			}
 		}
 	}	
-
+```
 
 ## License
-[Trulia Java RETS Client is licensed under the MIT License](https://github.com/trulia/trulia-java-rets-client/blob/master/LICENSE)
+[Java RETS Client is licensed under the MIT License](https://github.com/urbancompass/java-rets-client/blob/master/LICENSE)

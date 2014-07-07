@@ -147,16 +147,12 @@
           <execution>
             <id>attach-javadocs</id>
             <phase>deploy</phase>
-            <goals>
-              <goal>jar-no-fork</goal>
-            </goals>
           </execution>
         </executions>
       </plugin>
       <plugin>
         <!-- explicitly define maven-deploy-plugin after other to force exec order -->
         <artifactId>maven-deploy-plugin</artifactId>
-        <version>5.0.0.RELEASE</version>
         <executions>
           <execution>
             <id>deploy</id>

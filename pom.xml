@@ -8,6 +8,11 @@
   <packaging>jar</packaging>
   <name>(UrbanCompass) Java Rets Client</name>
   <url>http://maven.apache.org</url>
+  <scm>
+    <connection>scm:git:git@github.com:UrbanCompass/java-rets-client.git</connection>
+    <url>scm:git:gi@github.com:UrbanCompass/java-rets-client.git</url>
+    <developerConnection>scm:git:git@github.com:UrbanCompass/java-rets-client.git</developerConnection>
+  </scm>
 
   <profiles>
     <profile>
@@ -162,6 +167,11 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5</version>
       </plugin>
     </plugins>
   </build>
